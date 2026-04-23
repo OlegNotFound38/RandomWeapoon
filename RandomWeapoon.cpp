@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <random>
 
 using namespace std;
 
@@ -8,7 +8,9 @@ int main(){
     cout << "Для начала работы введи в терминал, все что угодно,\nЧтобы остановить программу напиши \"Stop\"" << endl;
     cout << "Удачи!" << endl;
 
-    
+    // std::random_device rd;
+    // std::mt19937 gen(rd());
+    // std::uniform_int_distribution<> dist(1, 10);
 
     return 0;
 }
